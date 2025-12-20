@@ -265,14 +265,14 @@ index=endpoint earliest=-5m source="XmlWinEventLog:Microsoft-Windows-Sysmon/Oper
 
 **Tactic Distribution:**
 
-![Tactic Distribution Pie Chart](../screenshots/05-attack-validation/tactic-distribution-atomic.png)
+![Tactic Distribution Pie Chart](../Screenshots/05-attack-validation/tactic-distribution-atomic.png)
 
 - Execution: ~75% of detected activity
 - Persistence: ~25% of detected activity
 
 **Technique Detection by Tactic:**
 
-![Atomic Summary Visualization](../screenshots/05-attack-validation/atomic-summary-visualization.png)
+![Atomic Summary Visualization](../Screenshots/05-attack-validation/atomic-summary-visualization.png)
 
 Column chart showing detection counts grouped by tactic, demonstrating comprehensive coverage across multiple MITRE ATT&CK techniques.
 
