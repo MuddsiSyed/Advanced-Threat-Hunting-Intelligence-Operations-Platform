@@ -1,0 +1,131 @@
+{
+  "feeds": {
+    "otx": {
+      "enabled": true,
+      "api_key": "1f9aa24cdab3aa0468a2d0b84c7324081fe076383c28c38523be279e8f2a05c3",
+      "description": "AlienVault OTX - Community threat intelligence platform",
+      "url": "https://otx.alienvault.com",
+      "requires_api_key": false,
+      "rate_limit": "1000 requests/hour with API key, limited without"
+    },
+    "malware_domain_list": {
+      "enabled": true,
+      "description": "Malware Domain List - Known malicious domains",
+      "url": "http://www.malwaredomainlist.com",
+      "requires_api_key": false,
+      "data_format": "hosts file"
+    },
+    "phishtank": {
+      "enabled": true,
+      "api_key": "",
+      "description": "PhishTank - Collaborative phishing database",
+      "url": "https://www.phishtank.com",
+      "requires_api_key": false,
+      "rate_limit": "Higher limits with API key"
+    },
+    "emerging_threats": {
+      "enabled": true,
+      "description": "Emerging Threats - High-quality threat intelligence",
+      "url": "https://rules.emergingthreats.net",
+      "requires_api_key": false,
+      "data_format": "text files"
+    },
+    "urlhaus": {
+      "enabled": true,
+      "description": "URLhaus - Malware URL database from abuse.ch",
+      "url": "https://urlhaus.abuse.ch",
+      "requires_api_key": false,
+      "data_format": "CSV"
+    }
+  },
+  "database": {
+    "path": "threat_intel.db",
+    "retention_days": 90,
+    "batch_size": 1000,
+    "auto_cleanup": true,
+    "backup_enabled": false,
+    "backup_path": "./backups/"
+  },
+  "output": {
+    "splunk_enabled": true,
+    "s3_enabled": false,
+    "local_reports": true,
+    "report_format": "json"
+  },
+  "splunk": {
+    "hec_url": "https://65.0.27.142:8088",
+    "hec_token": "9737f034-424d-4263-8585-16014cfd0f5f",
+    "index": "cti",
+    "source": "threat_feed_collector",
+    "sourcetype": "threat_feeds",
+    "verify_ssl": false,
+    "batch_size": 100,
+    "send_individual_indicators": true
+  },
+  "aws": {
+    "enabled": false,
+    "region": "us-east-1",
+    "s3_bucket": "your-threat-intel-bucket",
+    "access_key_id": "YOUR_AWS_ACCESS_KEY",
+    "secret_access_key": "YOUR_AWS_SECRET_KEY",
+    "upload_daily_summaries": true,
+    "upload_full_data": false
+  },
+  "settings": {
+    "request_timeout": 30,
+    "max_retries": 3,
+    "delay_between_sources": 2,
+    "delay_between_requests": 1,
+    "user_agent": "ThreatFeedCollector/1.0",
+    "max_indicators_per_source": 10000,
+    "parallel_processing": false
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_rotation": true,
+    "max_log_files": 7,
+    "log_to_console": true,
+    "log_to_file": true
+  },
+  "notifications": {
+    "email_enabled": false,
+    "email_smtp_server": "smtp.gmail.com",
+    "email_smtp_port": 587,
+    "email_username": "your-email@domain.com",
+    "email_password": "your-app-password",
+    "email_recipients": ["soc@yourcompany.com"],
+    "notify_on_errors": true,
+    "notify_on_completion": false,
+    "min_indicators_threshold": 100
+  },
+  "source_weights": {
+    "otx": 0.85,
+    "malware_domain_list": 0.90,
+    "phishtank": 0.80,
+    "emerging_threats": 0.95,
+    "urlhaus": 0.85,
+    "description": "Reliability weights for each source (0.0-1.0)"
+  },
+  "confidence_scoring": {
+    "base_confidence": {
+      "ip": 0.8,
+      "domain": 0.85,
+      "url": 0.75,
+      "hash": 0.9,
+      "email": 0.7,
+      "unknown": 0.5
+    },
+    "multi_source_boost": 0.05,
+    "max_multi_source_boost": 0.2,
+    "recency_boost": 0.05,
+    "age_penalty_days": 30,
+    "age_penalty": 0.05
+  },
+  "schedule": {
+    "enabled": false,
+    "cron_expression": "0 2 * * *",
+    "description": "Run daily at 2 AM",
+    "timezone": "UTC"
+  }
+}

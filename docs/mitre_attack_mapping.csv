@@ -1,0 +1,24 @@
+EventCode,TechniqueID,TechniqueName,Tactic,Description,DataSource
+4625,T1110.001,Brute Force: Password Guessing,Credential Access,Multiple failed login attempts indicating password guessing attack,Windows Security Event Logs
+4624,T1078,Valid Accounts,Defense Evasion,Successful authentication using valid credentials after compromise,Windows Security Event Logs
+4624,T1078,Valid Accounts,Persistence,Successful authentication using valid credentials after compromise,Windows Security Event Logs
+4624,T1078,Valid Accounts,Privilege Escalation,Successful authentication using valid credentials after compromise,Windows Security Event Logs
+4672,T1078.002,Valid Accounts: Domain Accounts,Privilege Escalation,Special privileges assigned to domain account,Windows Security Event Logs
+4720,T1136.001,Create Account: Local Account,Persistence,New user account created on system,Windows Security Event Logs
+4732,T1098,Account Manipulation,Persistence,User added to privileged security group,Windows Security Event Logs
+4728,T1098,Account Manipulation,Persistence,User added to global security group,Windows Security Event Logs
+4648,T1078,Valid Accounts,Defense Evasion,Logon with explicit credentials (runas),Windows Security Event Logs
+1,T1059.001,Command and Scripting Interpreter: PowerShell,Execution,PowerShell process execution detected,Sysmon
+1,T1106,Native API,Execution,Process creation via Windows API,Sysmon
+3,T1071.001,Application Layer Protocol: Web Protocols,Command and Control,Network connection to external IP,Sysmon
+3,T1090,Proxy,Command and Control,Network connection through proxy,Sysmon
+11,T1105,Ingress Tool Transfer,Command and Control,File creation potentially from remote source,Sysmon
+13,T1112,Modify Registry,Defense Evasion,Registry modification detected,Sysmon
+7,T1129,Shared Modules,Execution,DLL loaded into process,Sysmon
+10,T1003.001,OS Credential Dumping: LSASS Memory,Credential Access,Process accessed LSASS memory,Sysmon
+22,T1071.004,Application Layer Protocol: DNS,Command and Control,DNS query to suspicious domain,Sysmon
+5,T1562.001,Impair Defenses: Disable or Modify Tools,Defense Evasion,Process terminated (potential security tool),Sysmon
+4688,T1059,Command and Scripting Interpreter,Execution,Process creation event,Windows Security Event Logs
+4697,T1543.003,Create or Modify System Process: Windows Service,Persistence,New Windows service installed,Windows Security Event Logs
+4698,T1053.005,Scheduled Task/Job: Scheduled Task,Persistence,Scheduled task created,Windows Security Event Logs
+4699,T1053.005,Scheduled Task/Job: Scheduled Task,Defense Evasion,Scheduled task deleted,Windows Security Event Logs
