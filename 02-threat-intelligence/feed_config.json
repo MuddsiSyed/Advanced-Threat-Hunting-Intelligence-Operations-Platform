@@ -2,7 +2,7 @@
   "feeds": {
     "otx": {
       "enabled": true,
-      "api_key": "1f9aa24cdab3aa0468a2d0b84c7324081fe076383c28c38523be279e8f2a05c3",
+      "api_key": "",
       "description": "AlienVault OTX - Community threat intelligence platform",
       "url": "https://otx.alienvault.com",
       "requires_api_key": false,
@@ -53,8 +53,8 @@
     "report_format": "json"
   },
   "splunk": {
-    "hec_url": "https://65.0.27.142:8088",
-    "hec_token": "9737f034-424d-4263-8585-16014cfd0f5f",
+    "hec_url": "",
+    "hec_token": "",
     "index": "cti",
     "source": "threat_feed_collector",
     "sourcetype": "threat_feeds",
@@ -64,8 +64,8 @@
   },
   "aws": {
     "enabled": false,
-    "region": "us-east-1",
-    "s3_bucket": "your-threat-intel-bucket",
+    "region": "",
+    "s3_bucket": "",
     "access_key_id": "YOUR_AWS_ACCESS_KEY",
     "secret_access_key": "YOUR_AWS_SECRET_KEY",
     "upload_daily_summaries": true,
