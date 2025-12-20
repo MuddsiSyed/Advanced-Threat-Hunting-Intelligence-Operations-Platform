@@ -301,7 +301,7 @@ index=endpoint source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" Even
 
 ### Tactic Distribution
 
-![Tactic Distribution](screenshots/05-attack-validation/tactic-distribution-atomic.png)
+![Tactic Distribution](Screenshots/05-attack-validation/tactic-distribution-atomic.png)
 
 **Coverage Breakdown**:
 - **Execution**: 75% (4 techniques - T1059.001, T1106, T1047)
@@ -310,7 +310,7 @@ index=endpoint source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" Even
 
 ### Technique Validation Matrix
 
-![Validation Summary](screenshots/05-attack-validation/atomic-summary-visualization.png)
+![Validation Summary](Screenshots/05-attack-validation/atomic-summary-visualization.png)
 
 **Visual representation of validated techniques grouped by MITRE ATT&CK tactic, demonstrating comprehensive detection coverage.**
 
