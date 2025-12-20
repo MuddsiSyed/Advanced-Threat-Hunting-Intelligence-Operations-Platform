@@ -16,8 +16,8 @@ What is Threat Intelligence?
 This script collects IOCs from multiple public feeds to build a comprehensive
 threat intelligence database for your organization.
 
-Author: SOC Team
-Date: 2025-01-XX
+Author: Syed Muddassir
+Date: 2025-12-02
 Version: 1.0
 """
 
