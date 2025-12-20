@@ -153,26 +153,30 @@ Batch Processing → Splunk HEC → Real-time Correlation
 - Execute detection query against clean environment
 - Expected result: 0 events
 - Establishes negative control baseline
-- **Screenshot**: [step1b-baseline-hunt-no-results.png]
+- **Screenshot**: <img width="1913" height="654" alt="step1b-baseline-hunt-no-results" src="https://github.com/user-attachments/assets/be45d92c-1895-4dc8-af33-9de3b2cebcd1" />
+
 
 **Step 2: IOC Enrichment** 📊
 - Add controlled test indicators to threat intelligence database
 - Push to Splunk via automated pipeline
 - Verify indicator correlation capability
-- **Screenshot**: [step2a-sql-insert-kali-ips.png], [step2d-kali-ips-in-splunk.png]
+- **Screenshot**: <img width="1918" height="487" alt="step2a-sql-insert-kali-ips" src="https://github.com/user-attachments/assets/8289e3a9-6001-40e1-9597-21d6ff34989b" />, <img width="1919" height="456" alt="step2d-kali-ips-in-splunk" src="https://github.com/user-attachments/assets/28013602-6dc5-4752-afb5-a00df554d0ab" />
+
 
 **Step 3: Controlled Attack Execution** ⚔️
 - Perform penetration test from Kali Linux
 - Document attack parameters and timeline
 - Generate realistic attack telemetry
-- **Screenshot**: [step3a-kali-attack-complete.png]
+- **Screenshot**: <img width="1920" height="371" alt="step3a-kali-attack-complete" src="https://github.com/user-attachments/assets/9db3b9bf-d0d4-4474-aeb6-ee1ce73eb997" />
+
 
 **Step 4: Validated Detection** ✅
 - Re-run identical query from Step 1
 - Confirm 100% event detection
 - Verify MITRE ATT&CK attribution
 - Calculate detection metrics
-- **Screenshot**: [step4a-validated-detection-results.png]
+- **Screenshot**: <img width="1915" height="923" alt="step4a-validated-detection-results" src="https://github.com/user-attachments/assets/b0b7cb5c-e2c1-4b56-bc1d-e9423a792c23" />
+
 
 ### Validation Results
 
