@@ -457,6 +457,7 @@ index=endpoint earliest=-3h
 ## 📚 **Related Documentation**
 
 - [Validation Methodology](validation-methodology.md) - 4-step validation process
+- [Atomic Red Team Validation](../05-attack-validation/atomic-red-team-validation.md) - Complete test results
 - [Threat Hunting README](README.md) - Overview and summary
 
 ---
