@@ -22,14 +22,13 @@ Advanced threat hunting platform demonstrating enterprise-level security operati
 
 ### System Architecture Diagram
 
-*[Architecture diagram showing AWS infrastructure, data flows, and component integration - Created with draw.io]*
+![Screencastfrom2025-12-2108-37-24-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/836956c7-c5bb-43b6-a9ba-33988602976e)
 
-**Coming Soon**: Comprehensive architecture diagram illustrating:
-- AWS infrastructure layout (4 EC2 instances)
-- Data flow from endpoints → Splunk SIEM
-- Threat intelligence pipeline architecture
-- Attack validation environment
-- MITRE ATT&CK integration layer
+**Key Data Flows**:
+- **Threat Intelligence Pipeline**: OSINT sources → Analysis Workstation (daily 2 AM UTC) → Splunk HEC → index=cti (59,994+ indicators)
+- **Endpoint Monitoring**: ADDC01 Windows Events + Sysmon → Universal Forwarder → Splunk → index=endpoint
+- **Attack Validation**: Kali Linux → Controlled attacks → ADDC01 → Generates telemetry for detection testing
+- **Real-time Correlation**: Splunk correlates index=cti + index=endpoint for automated threat detection with MITRE ATT&CK mapping
 
 ### Infrastructure Components
 
@@ -551,10 +550,8 @@ Advanced-Threat-Hunting-Operations-Platform/
 **2. Splunk Configuration**:
 ```bash
 # Create custom indexes
-splunk add index security -maxTotalDataSizeMB 500000
 splunk add index cti -maxTotalDataSizeMB 500000
 splunk add index endpoint -maxTotalDataSizeMB 1000000
-splunk add index ir -maxTotalDataSizeMB 300000
 
 # Install Sysmon add-on from Splunkbase
 # Configure HTTP Event Collector
@@ -648,36 +645,6 @@ Sysmon64.exe -accepteula -i sysmonconfig.xml
 - Solution: Hash-based deduplication algorithm
 - Metrics: 262 duplicates removed from 60,256 total indicators (99.6% efficiency)
 - Impact: Clean dataset improves correlation performance
-
----
-
-## 💡 Future Enhancements
-
-### Planned Capabilities
-
-**Behavioral Analytics**:
-- Off-hours authentication detection
-- Service account abuse monitoring
-- Lateral movement pattern recognition
-- Anomaly-based threat hunting
-
-**Advanced MITRE Coverage**:
-- Expand to 15-20 validated techniques
-- Multi-stage attack detection
-- Technique combination analysis
-- ATT&CK Navigator heatmap integration
-
-**Automation Expansion**:
-- SOAR integration for automated response
-- Threat intelligence enrichment automation
-- Incident ticket creation workflows
-- Executive dashboard automation
-
-**AI Integration** (Separate Project):
-- Automated threat analysis using LLMs
-- Natural language query interface
-- Intelligent hunting recommendations
-- AI-generated incident summaries
 
 ---
 
