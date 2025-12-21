@@ -22,7 +22,7 @@ Advanced threat hunting platform demonstrating enterprise-level security operati
 
 ### System Architecture Diagram
 
-![architecture-diagram-01](https://github.com/user-attachments/assets/eb580e5c-7678-4619-a9dc-719348b6524f)
+![architecture-diagram-02](https://github.com/user-attachments/assets/8a212ec4-923f-42dd-83a3-36e7a2c497d5)
 
 **Key Data Flows**:
 - **Threat Intelligence Pipeline**: OSINT sources → Analysis Workstation (daily 2 AM UTC) → Splunk HEC → index=cti (59,994+ indicators)
