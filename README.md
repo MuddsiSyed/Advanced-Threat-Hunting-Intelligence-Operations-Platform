@@ -70,7 +70,7 @@ Advanced threat hunting platform demonstrating enterprise-level security operati
 ✅ **Automated Threat Intelligence Pipeline**
 - 59,994+ indicators from 5 global threat feeds
 - Daily automated collection (2 AM UTC cron job)
-- Professional deduplication algorithm (262 duplicates removed)
+- Professional deduplication algorithm 
 - Real-time Splunk integration via HTTP Event Collector
 
 ✅ **MITRE ATT&CK Framework Integration**
