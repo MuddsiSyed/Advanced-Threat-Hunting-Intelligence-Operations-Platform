@@ -55,13 +55,13 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 
 ---
 
-### Query 2: Enhanced IOC Hunt with MITRE ATT&CK Mapping ⭐ **PORTFOLIO CENTERPIECE**
+### Query 2: Enhanced IOC Hunt with MITRE ATT&CK Mapping 
 
 **Purpose**: Automated IOC correlation with MITRE ATT&CK technique attribution
 
 **MITRE ATT&CK**: Automatic mapping to detected techniques
 
-**Validation Status**: ✅ Validated - T1110.001 (Brute Force) detected with 123 events
+**Validation Status**: Validated - T1110.001 (Brute Force) detected with 123 events
 
 **SPL Query**:
 ```splunk
