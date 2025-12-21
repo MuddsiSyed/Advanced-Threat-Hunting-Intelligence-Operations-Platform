@@ -28,8 +28,7 @@ Splunk HEC Integration (index=cti)
 - **Total Indicators**: 59,994 unique IOCs
 - **Collection Frequency**: Daily (2 AM UTC automated)
 - **Processing Time**: ~10 minutes for full collection
-- **Deduplication Rate**: 99.6% efficiency (262 duplicates removed)
-- **Splunk Integration**: 57,428 events successfully ingested
+- **Deduplication Rate**: 99.6% efficiency
 
 ### Source Distribution
 
@@ -137,8 +136,7 @@ confidence_score = (
 - Collection Speed: 59,994 indicators in ~10 minutes
 - Deduplication: 262 duplicates identified and removed
 - Database Storage: Complete operation in <30 seconds
-- Splunk Integration: 59 batches (100 indicators each)
-- Error Rate: 0% (all 5 sources operational)
+- Splunk Integration: 288 batches (200 indicators each)
 
 ### Error Handling & Resilience
 
