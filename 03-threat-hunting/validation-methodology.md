@@ -23,7 +23,7 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 
 **Result**: 0 events (clean environment confirmed)
 
-**Screenshot**: [step1b-baseline-hunt-no-results.png]
+**Screenshot**: <img width="807" height="204" alt="step1a-baseline-hunt-query" src="https://github.com/user-attachments/assets/8b346cf4-0a00-416b-b1a5-1f1b8b37b323" />
 
 ---
 
@@ -37,8 +37,9 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 - **Total CTI Database**: 59,994 indicators
 
 **Screenshots**: 
-- [step2a-sql-insert-kali-ips.png]
-- [step2d-kali-ips-in-splunk.png]
+- <img width="1918" height="487" alt="step2a-sql-insert-kali-ips" src="https://github.com/user-attachments/assets/76221a39-0106-4de8-97c9-f9dfb0654396" />
+- <img width="1920" height="956" alt="step2c-kali-ips-pushed-splunk" src="https://github.com/user-attachments/assets/04bca9d9-2002-4f15-a438-5f9a39e2251f" />
+- <img width="1919" height="456" alt="step2d-kali-ips-in-splunk" src="https://github.com/user-attachments/assets/09a6689e-8184-4a78-a3ee-54ad5cb7a059" />
 
 ---
 
@@ -53,7 +54,7 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 - 30 total login attempts
 - Attack duration: ~14 seconds
 
-**Screenshot**: [step3a-kali-attack-complete.png]
+**Screenshot**: <img width="1920" height="371" alt="step3a-kali-attack-complete" src="https://github.com/user-attachments/assets/e79885ff-0b72-48db-a847-41ee5d371ea7" />
 
 ---
 
@@ -77,9 +78,9 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 - Attack Timeline: 01:33:12 - 01:33:26 (14 seconds)
 
 **Screenshots**:
-- [step4a-validated-detection-results.png]
-- [step4b-detailed-event-correlation.png]
-- [step4c-attack-timeline-visualization.png]
+- <img width="1915" height="923" alt="step4a-validated-detection-results" src="https://github.com/user-attachments/assets/a51dec29-8559-4ef4-8dfb-e8198adb9814" />
+- <img width="1920" height="1074" alt="step4b-detailed-event-correlation" src="https://github.com/user-attachments/assets/434bd726-b142-41c2-95db-5e315cbab55f" />
+- <img width="1920" height="617" alt="step4c-attack-timeline-visualization" src="https://github.com/user-attachments/assets/26702f9f-5ea5-4135-89ef-271420669507" />
 
 ---
 
