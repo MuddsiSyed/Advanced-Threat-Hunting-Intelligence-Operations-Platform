@@ -6,7 +6,7 @@ Advanced Threat Hunting & Intelligence Operations Platform architecture built on
 
 ## Architecture Diagram
 
-![architecture-diagram-01](https://github.com/user-attachments/assets/dcf1168a-1998-4be2-9e17-61ce156ff2dc)
+![architecture-diagram-02](https://github.com/user-attachments/assets/cf28c7de-e53a-4db4-b1bf-a6806044cbfd)
 
 
 **Animated Architecture**: Complete data flow visualization showing threat intelligence collection from 5 OSINT sources, Splunk SIEM correlation, Active Directory monitoring, and attack validation infrastructure.
@@ -35,4 +35,5 @@ For detailed architecture documentation, see the [Main Project README](../README
 - Automation: Daily collection at 2 AM UTC
 
 For complete technical details, implementation guides, and validation results, refer to component-specific README files in the project structure.
+
 
