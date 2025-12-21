@@ -33,6 +33,7 @@ Advanced threat hunting platform demonstrating enterprise-level security operati
 ### Infrastructure Components
 
 **AWS Environment** (ap-south-1 region):
+- Screenshot: <img width="982" height="245" alt="Screenshot from 2025-12-20 22-08-49" src="https://github.com/user-attachments/assets/bca4264d-d577-48dd-8652-76afc3ba599d" />
 - **Splunk-Server-CyberSec** (t3.medium) - Enterprise SIEM platform
 - **Analysis-WorkStation-CyberSec** (t3.medium) - Threat intelligence automation
 - **ADDC01-ThreatHunt** (t3.medium) - Windows Server 2022 Domain Controller
