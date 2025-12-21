@@ -13,13 +13,13 @@ Comprehensive collection of validated threat hunting queries with MITRE ATT&CK f
 
 ## 🔍 **IOC-Based Threat Hunting**
 
-### Query 1: Automated IOC Sweep Across Endpoints ⭐ **SIGNATURE QUERY**
+### Query 1: Automated IOC Sweep Across Endpoints 
 
 **Purpose**: Correlate endpoint network and authentication activity with 59,994+ threat indicators
 
 **MITRE ATT&CK**: Multiple techniques (automatic mapping)
 
-**Validation Status**: ✅ Validated with Kali Linux penetration testing (123 events detected, 100% accuracy)
+**Validation Status**: Validated with Kali Linux penetration testing (123 events detected, 100% accuracy)
 
 **SPL Query**:
 ```splunk
