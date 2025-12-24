@@ -95,9 +95,9 @@ Advanced threat hunting platform with validated detection capabilities across mu
 
 ### Coverage Visualization
 
-![Tactic Distribution](../../Screenshots/05-attack-validation/tactic-distribution-atomic.png)
+![Tactic Distribution](../Screenshots/05-attack-validation/tactic-distribution-atomic.png)
 
-![Technique Coverage](../../Screenshots/05-attack-validation/atomic-summary-visualization.png)
+![Technique Coverage](../Screenshots/05-attack-validation/atomic-summary-visualization.png)
 
 ---
 
