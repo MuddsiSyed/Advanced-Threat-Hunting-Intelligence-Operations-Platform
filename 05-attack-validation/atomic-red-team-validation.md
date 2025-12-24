@@ -418,15 +418,9 @@ Column chart showing detection counts grouped by tactic, demonstrating comprehen
 
 ---
 
-## ✅ Validation Certification
-
-**Validation Completed**: December 20, 2025  
-**Validated By**: Muddassir (SOC Analyst, CTIA Certified)  
 **Validation Framework**: Atomic Red Team + Custom Penetration Testing  
 **Detection Platform**: Splunk Enterprise 9.4.4 with Sysmon Add-on  
 **Results**: 5 techniques validated, 100% detection rate, 0 false positives  
-
-**This validation demonstrates enterprise-level threat detection capabilities suitable for Threat Intelligence Analyst roles in the 24K-30K SAR range in Saudi Arabia's cybersecurity market.**
 
 ---
 
