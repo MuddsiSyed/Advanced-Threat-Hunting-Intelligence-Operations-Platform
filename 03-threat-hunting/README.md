@@ -157,7 +157,7 @@ index=endpoint
 - Demonstrates professional security testing methodology
 - Provides reproducible validation evidence
 
-[View complete Atomic Red Team validation report →](../../05-attack-validation/atomic-red-team-validation.md)
+[View complete Atomic Red Team validation report →](../05-attack-validation/atomic-red-team-validation.md)
 
 ---
 
@@ -165,7 +165,7 @@ index=endpoint
 
 Complete collection of validated threat hunting queries with MITRE ATT&CK integration:
 
-[📖 View Complete Hunting Query Library →](hunting-query-library.md)
+[📖 View Complete Hunting Query Library →](../hunting-query-library.md)
 
 **Query Categories**:
 - IOC-based threat hunting (59,994 indicator correlation)
@@ -186,7 +186,7 @@ Complete collection of validated threat hunting queries with MITRE ATT&CK integr
 
 **Key Principle**: Hypothesis-driven validation with quantified results
 
-[View detailed validation methodology →](validation-methodology.md)
+[View detailed validation methodology →](../validation-methodology.md)
 
 ---
 
