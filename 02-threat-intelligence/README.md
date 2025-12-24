@@ -357,19 +357,6 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 
 **Result**: Automatic detection of malicious IPs with confidence scoring
 
-### Incident Response
-
-**Rapid IOC Enrichment**:
-```python
-# Manual analysis of suspicious indicator
-python3 threat_intel_analyzer.py --ioc 1.2.3.4
-
-# Output: VirusTotal, AbuseIPDB, OTX analysis
-# Automatic Splunk integration
-```
-
-**Result**: Instant multi-source reputation analysis
-
 ### Proactive Defense
 
 **Daily Intelligence Updates**:
