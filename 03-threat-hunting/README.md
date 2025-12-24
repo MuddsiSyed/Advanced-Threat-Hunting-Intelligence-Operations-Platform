@@ -34,7 +34,7 @@ Advanced threat hunting platform with validated detection capabilities across mu
 
 **Key Achievement**: Automated IOC correlation with 59,994 threat indicators, achieving sub-second detection latency with zero false positives.
 
-[View detailed validation methodology →](validation-methodology.md)
+[View detailed validation methodology →](./validation-methodology.md)
 
 ---
 
