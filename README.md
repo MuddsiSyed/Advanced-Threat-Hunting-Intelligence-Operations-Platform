@@ -711,9 +711,9 @@ Sysmon64.exe -accepteula -i sysmonconfig.xml
 
 ## 📞 Contact & Links
 
-**Repository**: [GitHub Repository Link]  
-**Video Demonstration**: [YouTube/LinkedIn Video Link]  
-**LinkedIn**: [Your LinkedIn Profile]  
+**Repository**: github.com/MuddsiSyed/Advanced-Threat-Hunting-Intelligence-Operations-Platform/  
+**Video Demonstration**: youtu.be/g03nJT4n1ug
+**LinkedIn**: linkedin.com/in/syed-muddassir72/  
 **Documentation**: Complete guides available in project directories
 
 ---
