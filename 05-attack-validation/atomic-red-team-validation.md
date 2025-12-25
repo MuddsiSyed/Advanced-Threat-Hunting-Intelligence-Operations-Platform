@@ -80,7 +80,8 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 - TechniqueID: T1110.001
 - TechniqueName: Brute Force: Password Guessing
 
-**Screenshot**: [step4a-validated-detection-results.png]
+**Screenshot**: <img width="1915" height="923" alt="step4a-validated-detection-results" src="https://github.com/user-attachments/assets/6f82828e-e0fa-4aa7-a110-8a3d991abbdc" />
+
 
 ---
 
@@ -121,7 +122,9 @@ index=endpoint earliest=-5m source="XmlWinEventLog:Microsoft-Windows-Sysmon/Oper
 - CommandLine: Contains "Invoke-Mimikatz" and download URL
 - TechniqueID: T1059.001
 
-**Screenshot**: [t1059-001-execution.png], [t1059-001-detection.png]
+**Screenshot**: <img width="1879" height="582" alt="t1059-001-execution" src="https://github.com/user-attachments/assets/4ec58bdf-967a-4f7e-a82b-a7d23f19ff74" /> </br>
+<img width="1918" height="1074" alt="t1059-001-detection" src="https://github.com/user-attachments/assets/608edd49-284e-4fbd-996b-52392dd14fe3" />
+
 
 ---
 
@@ -166,7 +169,8 @@ index=endpoint earliest=-5m EventCode=4698
 auditpol /set /subcategory:"Other Object Access Events" /success:enable /failure:enable
 ```
 
-**Screenshot**: [t1053-005-execution.png], [t1053-005-detection.png]
+**Screenshot**: <img width="1881" height="412" alt="t1053-005-execution" src="https://github.com/user-attachments/assets/5cfb2541-5222-4c34-8e5d-2e4ead8316f2" /> </br>
+<img width="1918" height="1074" alt="t1059-001-detection" src="https://github.com/user-attachments/assets/1b4ce998-890b-4645-a66c-bfb5ce3d585f" />
 
 ---
 
@@ -192,7 +196,7 @@ index=endpoint source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" Even
 - **MITRE Mapping**: T1106 automatically attributed
 - **Tactic**: Execution
 
-**Screenshot**: Included in [atomic-summary-visualization.png]
+**Screenshot**: Included in [atomic-summary-visualization.png](../Screenshots/05-attack-validation/atomic-summary-visualization.png)
 
 ---
 
@@ -231,7 +235,9 @@ index=endpoint earliest=-5m source="XmlWinEventLog:Microsoft-Windows-Sysmon/Oper
 - CommandLine: WMI commands
 - TechniqueID: T1047
 
-**Screenshot**: [t1047-execution.png], [t1047-detection.png]
+**Screenshot**: <img width="1877" height="400" alt="t1047-execution" src="https://github.com/user-attachments/assets/51cc21fe-eb69-4e81-869a-e87e06655e44" /></br>
+<img width="1914" height="519" alt="t1047-detection" src="https://github.com/user-attachments/assets/25c12a3c-87ba-472e-a99b-eff42784700f" />
+
 
 ---
 
