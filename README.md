@@ -59,7 +59,7 @@ Advanced threat hunting platform demonstrating enterprise-level security operati
 | Metric | Achievement |
 |--------|-------------|
 | **Threat Indicators** | 59,994+ unique IOCs | 
-| **Detection Rate** | 100% (142+ events) | 
+| **Detection Rate** | 100%  | 
 | **False Positives** | 0% | 
 | **Detection Latency** | <1 second | 
 | **MITRE Techniques** | 5 validated | 
