@@ -404,24 +404,35 @@ Column chart showing detection counts grouped by tactic, demonstrating comprehen
 
 **Validation Methodology:**
 - step1b-baseline-hunt-no-results.png (baseline verification)
+    ![Baseline Hunt](../Screenshots/04-threat-hunting/validation-workflow/step1b-baseline-hunt-no-results.png)
 - step2a-sql-insert-kali-ips.png (controlled test setup)
+    ![Insert Kali IP](../Screenshots/04-threat-hunting/validation-workflow/step2a-sql-insert-kali-ips.png)
 - step4a-validated-detection-results.png (123 events detected)
+    ![Validated Detection](../Screenshots/04-threat-hunting/validation-workflow/step4a-validated-detection-results.png)
 
 **Atomic Red Team Execution:**
 - t1059-001-execution.png (PowerShell test)
+    ![Atomic Red Team Execution](../Screenshots/05-attack-validation/t1059-001-execution.png)
 - t1053-005-execution.png (Scheduled Task test)
+    ![Atomic Red Team Execution](../Screenshots/05-attack-validation/t1053-005-execution.png)
 - t1047-execution.png (WMI test)
+    ![Atomic Red Team Execution](../Screenshots/05-attack-validation/t1047-execution.png)
 
 **Detection Results:**
 - t1059-001-detection.png (PowerShell detection)
+     ![Atomic Red Team Detection](../Screenshots/05-attack-validation/t1059-001-detection.png)
 - t1053-005-detection.png (Scheduled Task detection)
+    ![Atomic Red Team Detection](../Screenshots/05-attack-validation/t1053-005-detection.png)
 - t1047-detection.png (WMI detection)
+    ![Atomic Red Team Detection](../Screenshots/05-attack-validation/t1047-detection.png)
 
 **Summary Visualizations:**
 - atomic-summary-4-validated-techniques.png (tabular summary)
+   ![Atomic Red Team Summary](../Screenshots/05-attack-validation/atomic-summary-4-validated-techniques.png)
 - tactic-distribution-atomic.png (pie chart)
+   ![Atomic Red Team Summary](../Screenshots/05-attack-validation/tactic-distribution-atomic.png)
 - atomic-summary-visualization.png (column chart)
-
+   ![Atomic Red Team Summary](../Screenshots/05-attack-validation/atomic-summary-visualization.png)
 ---
 
 **Validation Framework**: Atomic Red Team + Custom Penetration Testing  
