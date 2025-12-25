@@ -51,7 +51,7 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 - Confidence Score: 0.95
 - Detection Rate: 100%
 
-**Screenshot**: `screenshots/04-threat-hunting/validation-workflow/step4a-validated-detection-results.png`
+**Screenshot**: ![S](../Screenshots/04-threat-hunting/validation-workflow/step4a-validated-detection-results.png)
 
 ---
 
@@ -88,7 +88,7 @@ index=endpoint (EventCode=3 OR EventCode=4624 OR EventCode=4625)
 - Confidence: 0.95
 - Tactic: Credential Access
 
-**Screenshot**: `screenshots/04-threat-hunting/mitre-attack/step7-ioc-hunt-with-mitre.png`
+**Screenshot**: ![s](../Screenshots/04-threat-hunting/mitre-attack/step7-ioc-hunt-with-mitre.png)
 
 ---
 
@@ -140,7 +140,7 @@ index=endpoint
 - T1106 (Native API)
 - T1047 (WMI)
 
-**Screenshot**: `screenshots/04-threat-hunting/mitre-attack/step4-technique-detection-dashboard.png`
+**Screenshot**: ![s](../Screenshots/04-threat-hunting/mitre-attack/step4-technique-detection-dashboard.png)
 
 ---
 
@@ -164,7 +164,7 @@ index=endpoint earliest=-24h
 - Persistence: ~25%
 - Credential Access: Separate validation
 
-**Screenshot**: `screenshots/04-threat-hunting/mitre-attack/step5-tactic-distribution-pie.png`
+**Screenshot**: ![s](../Screenshots/04-threat-hunting/mitre-attack/step5-tactic-distribution-pie.png)
 
 ---
 
@@ -185,7 +185,7 @@ index=endpoint earliest=-7d
 
 **Coverage Statistics**: 5 techniques, 142+ events, 7-day window
 
-**Screenshot**: `screenshots/04-threat-hunting/mitre-attack/step8-coverage-heatmap.png`
+**Screenshot**: ![S](../Screenshots/04-threat-hunting/mitre-attack/step8-coverage-heatmap.png)
 
 ---
 
@@ -206,7 +206,7 @@ index=endpoint earliest=-7d
 
 **Output**: Tabular report with first_seen, last_seen, event count per technique
 
-**Screenshot**: `screenshots/04-threat-hunting/mitre-attack/step9-coverage-report.png`
+**Screenshot**: ![s](../Screenshots/04-threat-hunting/mitre-attack/step9-coverage-report.png)
 
 ---
 
@@ -228,7 +228,7 @@ index=endpoint Source_Network_Address="172.31.38.154" EventCode=4625
 
 **Validation Results**: 123/123 events correctly attributed to T1110.001
 
-**Screenshot**: `screenshots/04-threat-hunting/mitre-attack/step6-kali-attack-mitre-mapped.png`
+**Screenshot**: ![S](../Screenshots/04-threat-hunting/mitre-attack/step6-kali-attack-mitre-mapped.png)
 
 ---
 
@@ -251,7 +251,7 @@ index=endpoint earliest=-5m source="XmlWinEventLog:Microsoft-Windows-Sysmon/Oper
 
 **Key Detection**: CommandLine field contains download cradle and malicious payload
 
-**Screenshot**: `screenshots/05-attack-validation/t1059-001-detection.png`
+**Screenshot**: ![S](../Screenshots/05-attack-validation/t1059-001-detection.png)
 
 ---
 
@@ -275,7 +275,7 @@ index=endpoint earliest=-5m EventCode=4698
 auditpol /set /subcategory:"Other Object Access Events" /success:enable /failure:enable
 ```
 
-**Screenshot**: `screenshots/05-attack-validation/t1053-005-detection.png`
+**Screenshot**: ![S](../Screenshots/05-attack-validation/t1053-005-detection.png)
 
 ---
 
@@ -298,7 +298,7 @@ index=endpoint earliest=-5m source="XmlWinEventLog:Microsoft-Windows-Sysmon/Oper
 
 **Detection Focus**: Process creation events showing WMI command execution
 
-**Screenshot**: `screenshots/05-attack-validation/t1047-detection.png`
+**Screenshot**: ![S](../Screenshots/05-attack-validation/t1047-detection.png)
 
 ---
 
@@ -342,7 +342,7 @@ index=endpoint earliest=-3h
 
 **Output**: All 5 validated techniques with event counts
 
-**Screenshot**: `screenshots/05-attack-validation/atomic-summary-4-validated-techniques.png`
+**Screenshot**: ![S](../Screenshots/05-attack-validation/atomic-summary-4-validated-techniques.png)
 
 ---
 
