@@ -95,14 +95,7 @@ Advanced threat hunting platform demonstrating enterprise-level security operati
 
 ## 🎬 Video Demonstration
 
-*[Embedded video demonstration - 10-12 minutes]*
-
-**Coming Soon**: Comprehensive platform walkthrough demonstrating:
-1. **Architecture Overview** (2 min) - Infrastructure and data flows
-2. **Threat Intelligence Automation** (2 min) - Automated collection and correlation
-3. **Threat Hunting Validation** (4 min) - Live attack detection demonstration
-4. **MITRE ATT&CK Integration** (2 min) - Framework implementation and dashboards
-5. **Attack Simulation** (2 min) - Atomic Red Team validation
+[![Advanced Threat Hunting Platform Demo](https://img.youtube.com/vi/g03nJT4n1ug/maxresdefault.jpg)](https://www.youtube.com/watch?v=g03nJT4n1ug)
 
 ---
 
